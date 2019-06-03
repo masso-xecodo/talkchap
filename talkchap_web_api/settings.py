@@ -127,9 +127,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'talkchap',
-        'USER': 'talkchap',
-        'PASSWORD': 'P@ssw0rd', 
-        'HOST': 'db',
+        'USER': 'root',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'POST': '3306',
     }
 }
 
